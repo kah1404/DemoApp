@@ -4,10 +4,28 @@
              xmlns:local="clr-namespace:AppTest1"
              x:Class="AppTest1.MainPage">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout 
+            HorizontalOptions="FillAndExpand"
+            VerticalOptions="Start"
+            >
+            <Entry
+                Placeholder="Epost"
+                />            
+            <Entry
+                Placeholder="Navn"
+                />
+            <StackLayout Orientation="Horizontal"
+                >
+                <Button
+                    Text="Send"
+                    HorizontalOptions="FillAndExpand"
+                />
+                <Button
+                    Text="Reset"
+                    
+                />
+            </StackLayout>
+           
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
