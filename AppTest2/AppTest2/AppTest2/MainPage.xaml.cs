@@ -15,7 +15,7 @@ namespace AppTest2
 
         }
 
-        private void Butters_OnClicked(object sender, EventArgs e)
+        private void Button1_OnClicked(object sender, EventArgs e)
         {
             Label1.Text = Entry.Text;
         }
