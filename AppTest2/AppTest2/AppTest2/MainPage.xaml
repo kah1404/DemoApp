@@ -5,18 +5,27 @@
              xmlns:local="clr-namespace:AppTest2"
              x:Class="AppTest2.MainPage">
     <ContentPage.Content>
-        <StackLayout Orientation="Vertical">
+        
+        <StackLayout 
+                Orientation="Vertical" 
+                BackgroundColor="BlueViolet">
+            
             <Entry
+                PlaceholderColor="Black"
+                TextColor="Black"
                 x:Name="Entry"
                 Placeholder="Text"
                 />
 
             <Label
+                TextColor="Black"
                 x:Name="Label1"
-                Text="Label"
+                Text="Change me"
                 HorizontalOptions="Center" />
 
             <Button
+                TextColor="Black"
+                BackgroundColor="White"
                 x:Name="Button1"
                 Clicked="Button1_OnClicked"
                 Text="Click"
