@@ -5,34 +5,23 @@
              x:Class="AppTest2.MainPage">
     <ContentPage.Content>
         <StackLayout Orientation="Vertical">
-            <Label 
-                    Text="Welcome to Xamarin.Forms!"
-                    VerticalOptions="End" 
-                    HorizontalOptions="Center" />
-           <Entry
+            <Entry
                     x:Name="Entry"
                     Placeholder="Text" 
                     VerticalOptions="End" />
             
-            <Button 
-                    Text="Knapp" 
-                    VerticalOptions="End" 
-                    HorizontalOptions="Center" />            
-            
-            <Label 
-                    x:Name="ByttMeg"
-                    
-                    Text="Welcome to Xamarin.Forms!"
-                    VerticalOptions="End" 
-                    HorizontalOptions="Center" />
-            
+            <Label
+                x:Name="Label1"
+                Text="Label"
+                
+                />
+        
             <Button 
                     x:Name="Butters"
                     Clicked="Butters_OnClicked"
                     Text="Knapp" 
                     VerticalOptions="End" 
                     HorizontalOptions="Center" />
-            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

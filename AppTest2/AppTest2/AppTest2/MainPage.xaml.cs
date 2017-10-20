@@ -13,38 +13,11 @@ namespace AppTest2
         {
             InitializeComponent();
 
-            
-
-
-
-
-//            var trulsmumrikken = new Label
-//            {
-//                Text = "bleh",
-//                HorizontalOptions = LayoutOptions.Center,
-//                VerticalOptions = LayoutOptions.Center,
-//
-//            };
-//
-//            Content = new StackLayout
-//            {
-//                Orientation = StackOrientation.Vertical,
-//
-//                Children =
-//                {
-//                    trulsmumrikken   
-//                }
-//
-//                
-//            };
-
-
-
         }
 
         private void Butters_OnClicked(object sender, EventArgs e)
         {
-            ByttMeg.Text = Entry.Text;
+            Label1.Text = Entry.Text;
         }
     }
 }
