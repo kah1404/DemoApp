@@ -17,7 +17,14 @@ namespace AppTest2
 
         private void Button1_OnClicked(object sender, EventArgs e)
         {
-            Label1.Text = Entry.Text;
+            Label1.Text = Entry1.Text;
+            Entry1.Text = " ";
+        }
+
+        private void Button2_OnClicked(object sender, EventArgs e)
+        {
+            Entry1.Text = " ";
+            Entry2.Text = " ";
         }
     }
 }

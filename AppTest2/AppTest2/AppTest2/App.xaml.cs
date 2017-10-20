@@ -14,6 +14,7 @@ namespace AppTest2
             InitializeComponent();
 
             MainPage = new AppTest2.MainPage();
+
         }
 
         protected override void OnStart()
