@@ -13,18 +13,29 @@ namespace AppTest2
         {
             InitializeComponent();
 
+            
+
+            var button1 = new Button { Text = "Login", TextColor = Color.White, BackgroundColor = Color.Black };
+            var entry1 = new Entry { Placeholder = "Username" };
+            var entry2 = new Entry { Placeholder = "Password", IsPassword = true};
+            var label1 = new Label{ Text = "Change Me"};
+
+             Content = new StackLayout
+            {
+                Orientation = StackOrientation.Vertical,
+
+                Children =
+                {
+                     entry1,
+                     entry2,
+                     button1,
+                     label1
+
+                }
+                
+            };
+
         }
 
-        private void Button1_OnClicked(object sender, EventArgs e)
-        {
-            Label1.Text = Entry1.Text;
-            Entry1.Text = " ";
-        }
-
-        private void Button2_OnClicked(object sender, EventArgs e)
-        {
-            Entry1.Text = " ";
-            Entry2.Text = " ";
-        }
     }
 }

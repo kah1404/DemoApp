@@ -5,49 +5,57 @@
              xmlns:local="clr-namespace:AppTest2"
              x:Class="AppTest2.MainPage">
     <ContentPage.Content>
-        
-        <StackLayout 
-                Orientation="Vertical" 
-                Margin="10"
-                BackgroundColor="BlueViolet">
-            
-            <Entry
-                x:Name="Entry1"
-                PlaceholderColor="Black"
-                TextColor="Black"
-                Placeholder="Text"/>
-            
-            <Entry
-                x:Name="Entry2"
-                IsPassword="True"
-                Placeholder="Password"
-                PlaceholderColor="Black"
-                TextColor="Black"/>
-            
-            <Label
-                FontSize="35"
-                TextColor="Black"
-                x:Name="Label1"
-                Text="Change me"
-                HorizontalOptions="Center" />
-            <StackLayout Orientation="Horizontal">
 
-            <Button
-                TextColor="Black"
-                BackgroundColor="Green"
-                x:Name="Button1"
-                Clicked="Button1_OnClicked"
-                Text="Enter"
-                HorizontalOptions="FillAndExpand"/>
-                <Button
-                    TextColor="Black"
-                    BackgroundColor="Red"
-                    HorizontalOptions="End"
-                    Text="Clear"
-                    x:Name="Button2"
-                    Clicked="Button2_OnClicked"
-                />
-            </StackLayout>
-        </StackLayout>
+<!--        <StackLayout-->
+<!--            Orientation="Vertical"-->
+<!--            Margin="10"-->
+<!--            Padding="20"-->
+<!--            BackgroundColor="BlueViolet">-->
+<!---->
+<!--            <Entry-->
+<!--                x:Name="Entry1"-->
+<!--                PlaceholderColor="Black"-->
+<!--                TextColor="Black"-->
+<!--                Placeholder="Text" />-->
+<!---->
+<!--            <Entry-->
+<!--                x:Name="Entry2"-->
+<!--                IsPassword="True"-->
+<!--                Placeholder="Password"-->
+<!--                PlaceholderColor="Black"-->
+<!--                TextColor="Black" />-->
+<!---->
+<!---->
+<!--            <Label-->
+<!--                FontSize="35"-->
+<!--                TextColor="Black"-->
+<!--                x:Name="Label1"-->
+<!--                Text="Change me"-->
+<!--                HorizontalOptions="Center" />-->
+<!--            <StackLayout Orientation="Horizontal">-->
+<!---->
+<!--                <Button-->
+<!--                    Text="Send"-->
+<!--                    TextColor="Black"-->
+<!--                    BackgroundColor="Green"-->
+<!--                    x:Name="Button1"-->
+<!--                    Clicked="Button1_OnClicked"-->
+<!--                    BorderWidth="1"-->
+<!--                    BorderColor="Black"-->
+<!--                    HorizontalOptions="FillAndExpand"-->
+<!--                    BorderRadius="25" />-->
+<!---->
+<!--                <Button-->
+<!--                    Text="Clear"-->
+<!--                    TextColor="Black"-->
+<!--                    BackgroundColor="Red"-->
+<!--                    HorizontalOptions="End"-->
+<!--                    x:Name="Button2"-->
+<!--                    Clicked="Button2_OnClicked"-->
+<!--                    BorderWidth="1"-->
+<!--                    BorderColor="Black"-->
+<!--                    BorderRadius="25" />-->
+<!--            </StackLayout>-->
+<!--        </StackLayout>-->
     </ContentPage.Content>
 </ContentPage>
