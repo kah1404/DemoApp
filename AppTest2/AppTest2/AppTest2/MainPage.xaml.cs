@@ -15,36 +15,27 @@ namespace AppTest2
 
             
 
+            var button1 = new Button { Text = "Login", TextColor = Color.White, BackgroundColor = Color.Black };
+            var entry1 = new Entry { Placeholder = "Username" };
+            var entry2 = new Entry { Placeholder = "Password", IsPassword = true};
+            var label1 = new Label{ Text = "Change Me"};
 
+             Content = new StackLayout
+            {
+                Orientation = StackOrientation.Vertical,
 
+                Children =
+                {
+                     entry1,
+                     entry2,
+                     button1,
+                     label1
 
-//            var trulsmumrikken = new Label
-//            {
-//                Text = "bleh",
-//                HorizontalOptions = LayoutOptions.Center,
-//                VerticalOptions = LayoutOptions.Center,
-//
-//            };
-//
-//            Content = new StackLayout
-//            {
-//                Orientation = StackOrientation.Vertical,
-//
-//                Children =
-//                {
-//                    trulsmumrikken   
-//                }
-//
-//                
-//            };
-
-
+                }
+                
+            };
 
         }
 
-        private void Butters_OnClicked(object sender, EventArgs e)
-        {
-            ByttMeg.Text = Entry.Text;
-        }
     }
 }
